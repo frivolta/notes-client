@@ -5,7 +5,7 @@ const config = {
   },
   apiGateway: {
     REGION: "us-east-1",
-    URL: "https://nuox55f06e.execute-api.us-east-1.amazonaws.com/prod/",
+    URL: "https://nuox55f06e.execute-api.us-east-1.amazonaws.com/prod",
   },
   cognito: {
     REGION: "us-east-1",
@@ -13,6 +13,7 @@ const config = {
     APP_CLIENT_ID: "6squcvflma55ug87nqgnntcads",
     IDENTITY_POOL_ID: "us-east-1:810b13ea-ff9e-4114-8cde-05da011af8eb",
   },
+  MAX_ATTACHMENT_SIZE: 5000000,
 };
 
 export default config;
