@@ -48,6 +48,7 @@ export default function NewNote() {
   }
 
   function createNote(note) {
+    console.log(note);
     return API.post("notes", "/notes", {
       body: note,
     });
